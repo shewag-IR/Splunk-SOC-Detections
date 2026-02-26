@@ -78,13 +78,13 @@ Upon receiving the Splunk alert, the Linux_AutoBlock_BruteForce playbook automat
 **Threat Intelligence Enrichment:** Queries the blocked IP against the VirusTotal v3 API for SOC reporting and IOC documentation.
 
 ## 📸 Playbook Configuration & Proof of Execution
-(Add your screenshots here)
+<img width="1366" height="768" alt="Screenshot (781)" src="https://github.com/user-attachments/assets/59fbaf62-245e-4bee-902e-4c01d95fd32e" />
+<img width="1366" height="768" alt="Screenshot (774)" src="https://github.com/user-attachments/assets/b330eb4f-b14f-446a-b127-33f27c5dba7f" />
+<img width="1366" height="768" alt="Screenshot (772)" src="https://github.com/user-attachments/assets/a9d295f2-2463-4656-9079-88b529750938" />
 
-![Iptables Block Action](link-to-Screenshot-780)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/633c4ee3-1a91-4b2b-bed8-a2641d854667" />
 
-![Usermod Lock Action](link-to-Screenshot-781)
 
-![VirusTotal Enrichment](link-to-Screenshot-782)
 
 ## 🚀 Impact
 This architecture successfully demonstrates automated containment mapped directly to the PICERL framework. By utilizing highly specific Wazuh rules, precision SPL mapping, and privileged OS command execution via SOAR, the SOC eliminates manual investigation time and neutralizes active compromises instantly.
